@@ -1,7 +1,7 @@
 // Requiring necessary npm packages
-var express = require('express');
+const express = require('express');
 const PORT = process.env.PORT || 8080;
-var app = express();
+const app = express();
 
 app.get('/', (re, res) => res.send('API Running'));
 
