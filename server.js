@@ -1,5 +1,6 @@
 // Requiring necessary npm packages
 const express = require('express');
+const connectDB = require('./config/db');
 const PORT = process.env.PORT || 8080;
 const app = express();
 
